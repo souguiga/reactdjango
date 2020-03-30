@@ -139,3 +139,15 @@ STRIPE_KEY = 'pk_test_zNK3XhObYFwq5x14hOffMBmw00vrDHfdmo'
 STRIPE_SECRET = 'sk_test_HXI0PZWFdb8mPsljq6zjXIPX00wlWdHHaI'
 import stripe
 stripe.api_key = STRIPE_SECRET
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
