@@ -18,6 +18,8 @@ from django.urls import path
 from django.conf.urls import url, include
 from django.contrib.auth.models import User
 from rest_framework import routers, serializers, viewsets
+from django.conf import settings
+from django.conf.urls.static import static
 
 # Serializers define the API representation.
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -44,4 +46,4 @@ urlpatterns = [
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls'))
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
