@@ -1,1 +1,1 @@
-web: gunicorn arcticapi2020.wsgi --log-file -
+web: gunicorn arcticapi.wsgi --log-file -
