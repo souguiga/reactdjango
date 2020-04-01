@@ -26,7 +26,7 @@ SECRET_KEY = 'g2ee%lc^9^y*)4q9^&*czc0$@8r@g1nr9ku2b1#mvlq%i!mkk+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arcticapi2020.herokuapp.com']
 
 
 # Application definition
