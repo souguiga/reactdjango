@@ -26,7 +26,7 @@ SECRET_KEY = 'g2ee%lc^9^y*)4q9^&*czc0$@8r@g1nr9ku2b1#mvlq%i!mkk+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['arcticapi2020.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'api',
+    'client',
 ]
 
 MIDDLEWARE = [
@@ -154,3 +155,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'staticfiles'),
 )
+
+SECURE_BROWSER_XSS_FILTER = True
