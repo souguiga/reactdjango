@@ -449,14 +449,6 @@
             "price": 98.19
         },
         {
-            "id": "590852",
-            "category": "Household",
-            "filename": "get",
-            "name": "Get",
-            "description": "Mollit esse fugiat magna cupidatat consectetur irure do eiusmod esse mollit. Irure enim ut ut proident ut ullamco deserunt enim eu in qui consequat. Mollit ullamco adipisicing cupidatat laboris in elit ex dolor consequat culpa. Laborum fugiat in ut ad sint in in cupidatat laborum pariatur voluptate. Non laboris incididunt aliqua commodo dolor esse do nulla magna. Eiusmod labore aliqua duis ad enim sit labore officia quis exercitation veniam sint.",
-            "price": 116.17
-        },
-        {
             "id": "72613",
             "category": "Food",
             "filename": "glass",
@@ -691,7 +683,7 @@
         {
             "id": "749868",
             "category": "Household",
-            "filename": "Food",
+            "filename": "packing_peanuts",
             "name": "Packing Peanuts",
             "description": "Laborum adipisicing qui sunt non. Cupidatat sint cillum irure duis. Nostrud magna sit ut deserunt id magna mollit aliquip amet culpa.",
             "price": 367.07
