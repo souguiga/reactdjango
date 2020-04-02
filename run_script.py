@@ -39,9 +39,9 @@ def main():
 
 
 
-    prod = Product.objects.get(id="749868")
-    prod.filename = "packing_peanuts"
-    prod.save()
+    # prod = Product.objects.get(id="749868")
+    # prod.filename = "packing_peanuts"
+    # prod.save()
     
 
     # with open('products.json') as json_file:
