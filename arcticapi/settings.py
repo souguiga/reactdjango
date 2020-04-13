@@ -137,8 +137,8 @@ REST_FRAMEWORK = {
 #Probably not the best way to do this
 CORS_ORIGIN_ALLOW_ALL = True
 
-STRIPE_KEY = 'pk_test_zNK3XhObYFwq5x14hOffMBmw00vrDHfdmo'
-STRIPE_SECRET = 'sk_test_HXI0PZWFdb8mPsljq6zjXIPX00wlWdHHaI'
+STRIPE_KEY = ''
+STRIPE_SECRET = ''
 import stripe
 stripe.api_key = STRIPE_SECRET
 
